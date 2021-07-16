@@ -153,7 +153,7 @@ const forDate = deadline => {
     minutos = ('0' + JSON.stringify(antes.getMinutes())).slice(-2),
     data = hora >= 12 || "am",
     dia = antes.getDate(),
-    mes = meses[antes.getMonth() - 1],
+    mes = meses[antes.getMonth()],
     año = antes.getFullYear()
 
     if(data == true){
